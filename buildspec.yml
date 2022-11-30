@@ -5,7 +5,7 @@ phases:
     commands:
       - printenv
       - rm -rf node_modules
-      - npm install
+      - npm install --force
   build:
     commands:
       - npm run build -prod
